@@ -7,7 +7,7 @@ import { BsPrinter } from "react-icons/bs";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { Component } from "react";
 
-const ResumeCard = ({cardName}) => {
+const ResumeSavedCard = ({cardName}) => {
   const [progressTop, setProgressTop] = useState("");
   return (
     <div className="p-8 h-2/5 max-w-[40%] flex bg-white m-10 rounded-3xl">
@@ -52,7 +52,7 @@ const ResumeCard = ({cardName}) => {
   );
 };
 
-export default ResumeCard;
+export default ResumeSavedCard;
 
 const HoverText = ({ hovercontent }) => {
     return <span className="absolute hidden group-hover:block  translate-x-[-50%] left-[50%] mt-2 p-4 bg-black text-white border rounded shadow-lg ">{hovercontent}</span>;

@@ -2,7 +2,8 @@ import React from "react";
 import DashHomeSlider from "../../components/Dashboard/DashHomeSlider";
 import DashQuestion from "../../components/Dashboard/DashQuestion";
 import CreateButton from "../../components/Dashboard/CreateButton";
-import ResumeCard from "../../components/Dashboard/ResumeCard";
+import ResumeCard from "../../components/Dashboard/ResumeSavedCard";
+import ResumeSavedCard from "../../components/Dashboard/ResumeSavedCard";
 
 const DashResume = () => {
   return (
@@ -19,7 +20,7 @@ const DashResume = () => {
 
         <CreateButton btnText='Create New Resume'/>
       </div>
-      <ResumeCard cardName='Name'/>
+      <ResumeSavedCard cardName='Name'/>
     </div>
   );
 };
